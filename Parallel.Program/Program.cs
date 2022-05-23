@@ -1,5 +1,6 @@
 ﻿using Parallel.Program.Cap5;
 using Parallel.Program.Cap6;
+using Parallel.Program.Cap7;
 
 namespace Parallel.Program
 {
@@ -8,7 +9,8 @@ namespace Parallel.Program
         static void Main(string[] args)
         {
             //WaitingForTimeToPass.Exec();
-            WaitingForTasks.Exec();
+            // WaitingForTasks.Exec();
+            CriticalSections.Exec();
         }
     }
 }
