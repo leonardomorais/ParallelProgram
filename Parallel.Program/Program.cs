@@ -10,7 +10,8 @@ namespace Parallel.Program
         {
             //WaitingForTimeToPass.Exec();
             // WaitingForTasks.Exec();
-            CriticalSections.Exec();
+            //CriticalSections.Exec();
+            InterlockedOperations.Exec();
         }
     }
 }
