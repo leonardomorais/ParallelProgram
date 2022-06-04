@@ -13,7 +13,8 @@ namespace Parallel.Program
             // WaitingForTasks.Exec();
             //CriticalSections.Exec();
             //InterlockedOperations.Exec();
-            ConcurrentDictionaryEx.Exec();
+            //ConcurrentDictionaryEx.Exec();
+            BlockingCollectionEx.Exec();
         }
     }
 }
