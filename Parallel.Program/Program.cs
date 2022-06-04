@@ -1,6 +1,7 @@
 ﻿using Parallel.Program.Cap5;
 using Parallel.Program.Cap6;
 using Parallel.Program.Cap7;
+using Parallel.Program.ConcurrentCollections;
 
 namespace Parallel.Program
 {
@@ -11,7 +12,8 @@ namespace Parallel.Program
             //WaitingForTimeToPass.Exec();
             // WaitingForTasks.Exec();
             //CriticalSections.Exec();
-            InterlockedOperations.Exec();
+            //InterlockedOperations.Exec();
+            ConcurrentDictionaryEx.Exec();
         }
     }
 }
