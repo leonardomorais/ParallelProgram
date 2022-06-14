@@ -16,7 +16,8 @@ namespace Parallel.Program
             //InterlockedOperations.Exec();
             //ConcurrentDictionaryEx.Exec();
             //BlockingCollectionEx.Exec();
-            Continuations.Exec();
+            //Continuations.Exec();
+            ChildTasks.Exec();
         }
     }
 }
