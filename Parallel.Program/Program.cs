@@ -17,7 +17,9 @@ namespace Parallel.Program
             //ConcurrentDictionaryEx.Exec();
             //BlockingCollectionEx.Exec();
             //Continuations.Exec();
-            ChildTasks.Exec();
+            //ChildTasks.Exec();
+            //ManualResetEventSlimExample.Exec();
+            AutoResetEventExample.Exec();
         }
     }
 }
